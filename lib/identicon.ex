@@ -52,4 +52,16 @@ defmodule Identicon do
 
     %Identicon.Image{image | grid: grid}
   end
+
+  # def build_pixelmap(image) do
+  #   %Identicon.Image{grid: grid}
+  #   pixel_map = Enum.map(grid, fn {index, _} ->
+  #     horizontal = rem(index, 5) * 50
+  #     vertical = div(index, 5) * 50
+  #     {{horizontal, vertical}, {horizontal + 50, vertical + 50}}
+  #   end)
+
+  # end
+# %Indenticon.Image{image | pixel_map}
+
 end
